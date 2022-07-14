@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  pedding: 0;
+  box-sizing: border-box;	
+}
+
+
+body{
+  background-color: #9C6141;
+  position: relative;
+  font-family: 'Cormorant', serif;
+}
+
+.mulher {
+  background-repeat: no-repeat, no-repeat;
+  opacity: 0.2;
+  margin-top: 89px;
+  width: 1300px;
+  height: 780px;
+  position: absolute;
+  background-position: center;
+}
+
+.mulher img {
+  width: 1409px;
+  height: 1500px;
+}
+
+.conteiner {
+   margin: auto;
+   max-width: 1080px;
+   display: flex;
+   aling-items: center;
+   justify-content: center;
+   text-align: center;
+   
+}
+
+.nav a {
+  color: #9C6141;
+  display: inline-flex;
+  padding: 25px 25px 15px 25px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: filter .2s;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  filter: contrast(200%);
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(to bottom, #EF9D6D, #F2C5AE);
+}
+
+.menu {
+  padding: 15px;
+}
+
+.logo {
+  width: 25%;
+ }
+
+.logo img{
+  width: 80px;
+  height: 80px;
+}
+
+.title { 
+  justify-content: center;
+  display: block;
+  border: 2px #F2C5AE solid;
+  margin-top: 100px;
+  font-size: 60px;
+  color: #F2C5AE;
+  letter-spacing: -2px; 
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em
+  /*text-shadow: 0.1em 0.1em 0.2em black;*/
+}
+
+.subtitle {
+  color: #F2C5AE;
+  letter-spacing: 8px;
+  font-family: 'Nanum Gothic', sans-serif;
+  /*font-family: 'Cormorant', serif;*/
+  text-align: center;
+}
+
+.procedimentos {
+  display: block;
+  list-style: none;
+  margin: auto;
+  padding: 20px;
+  width: 455px;
+  color: #F2C5AE;
+  margin-bottom: 40px;
+  
+}
+
+
+.procedimentos ul li {
+  padding: 10px;
+}
+
+.procedimentos ul {
+  letter-spacing: 1px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: bold;
+  
+}
+
+button {
+  margin: auto;
+  display: block;
+  padding: 20px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+  background-color: #34af23;
+  border: none;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  position: relative;
+  transition: filter .2s;
+
+}
+
+button:hover {
+  filter: contrast(120%);
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+}
+
+.sobre {
+  margin-top: 50px;
+  margin-left: 10px;  
+  font-size: 40px;
+  color: #F2C5AE;
+}
+
+details {
+  margin-top: 30px;
+  margin-left: 15px;
+  cursor:pointer; 
+  font-weight: bold;
+
+}
+
+details p {
+  font-size:22px;
+  color: #F2C5AE;
+}
+
+details summary {
+  height:20px;
+  background: linear-gradient(to bottom, #EF9D6D, #F2C5AE);
+  font-size:17px;
+  padding:10px 0px 30px 10px;
+  align-items: center;
+}
+
+details[open] summary {
+  color:white;
+  background: linear-gradient(to bottom, #F2C5AE, #9C6141);
+}
