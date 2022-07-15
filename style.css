@@ -44,10 +44,13 @@ body{
   text-decoration: none;
   transition: filter .2s;
   font-weight: bold;
+  transition: background-color .2s;
+
 }
 
 .nav a:hover {
-  filter: contrast(200%);
+  filter: contrast(150%);
+  background-color: rgb(251, 213, 220);
 }
 
 header {
