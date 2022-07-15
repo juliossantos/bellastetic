@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  pedding: 0;
+  padding: 0;
   box-sizing: border-box;	
 }
 
@@ -30,7 +30,6 @@ body{
    margin: auto;
    max-width: 1080px;
    display: flex;
-   aling-items: center;
    justify-content: center;
    text-align: center;
    
@@ -107,6 +106,7 @@ header {
 
 .procedimentos ul li {
   padding: 10px;
+  margin-left: 55px;
 }
 
 .procedimentos ul {
